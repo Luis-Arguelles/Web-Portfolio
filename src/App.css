@@ -1,6 +1,22 @@
-#root {
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
   padding: 0;
 }
 
+@media (max-width: 768px) {
+  .test {
+    width: 100%;
+    height: 500px;
+    background-color: aquamarine;
+  }
+
+  .text {
+    color: white
+  }
+}
 
 
