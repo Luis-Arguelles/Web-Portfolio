@@ -19,8 +19,8 @@ const Header: React.FC<HeaderProps> = ({setIsMenuOpened, isMenuOpened}) => {
             <nav className='nav'>
                 <div>
                     <ul>
-                        <li>Welcome</li>
-                        <li>Experience</li>
+                        <li><a href='#home'>Welcome</a></li>
+                        <li><a href='#experience'>Experience</a></li>
                         <li>Projects</li>
                     </ul>
                 </div>
