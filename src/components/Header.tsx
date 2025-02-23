@@ -11,7 +11,6 @@ const Header: React.FC<HeaderProps> = ({setIsMenuOpened, isMenuOpened}) => {
 
     return(
         <header className='header'>
-            
                 <img className="yo" src='/yo.jpeg'/>
                 <div onClick={() => setIsMenuOpened(!isMenuOpened)}>
                     <Menu className="menuIcon" color={"white"}/>
