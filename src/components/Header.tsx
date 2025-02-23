@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import '../styles/Header.css'
 import { Menu } from 'react-ionicons';
 

@@ -1,5 +1,4 @@
 import "../styles/Experience.css";
-import { CodeSlashOutline } from "react-ionicons";
 
 const Experience = () => {
     return(
