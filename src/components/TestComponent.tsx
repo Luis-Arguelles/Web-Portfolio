@@ -2,7 +2,7 @@ import "../styles/TestComponent.css"
 
 const TestComponent = () => {
     return(
-        <div className="testComponent">
+        <div id="testComponent" className="testComponent">
             <p>This is a text component</p>
         </div>
     )

@@ -11,7 +11,6 @@ const Header: React.FC<HeaderProps> = ({setIsMenuOpened, isMenuOpened}) => {
 
     return(
         <header className='header'>
-            
                 <img className="yo" src='/yo.jpeg'/>
                 <div onClick={() => setIsMenuOpened(!isMenuOpened)}>
                     <Menu className="menuIcon" color={"white"}/>
@@ -19,9 +18,10 @@ const Header: React.FC<HeaderProps> = ({setIsMenuOpened, isMenuOpened}) => {
             <nav className='nav'>
                 <div>
                     <ul>
-                        <li>Welcome</li>
-                        <li>Experience</li>
-                        <li>Projects</li>
+                        <li><a href='#home'>Welcome</a></li>
+                        <li><a href='#experience'>Experience</a></li>
+                        <li><a href='#projects'>Projects</a></li>
+                        <li><a href='#contact'>Contact</a></li>
                     </ul>
                 </div>
                 <div className='links'>

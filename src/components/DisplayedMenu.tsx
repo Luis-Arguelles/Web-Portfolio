@@ -3,9 +3,10 @@
  const DisplayedMenu = () => {
     return(
         <div className='displayedMenu'>
-                <p>Welcome</p>
-                <p>Experience</p>
-                <p>Projects</p>
+                <p><a href="#home">Welcome</a></p>
+                <p><a href="#experience">Experience</a></p>
+                <p><a href="#projects">Projects</a></p>
+                <p><a href="#contact">Contact</a></p>
                 <a href='https://www.linkedin.com/in/luis-antonio-arg%C3%BCelles-gonz%C3%A1lez-878a76180/' target='_blank'>
                         <img className="linkedinDisplayed" src='/linkedin.webp'/>
                     </a>

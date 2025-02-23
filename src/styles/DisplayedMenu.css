@@ -4,7 +4,6 @@
     justify-content: space-evenly;
     align-items: center;
     height: 90vh;
-    gap: 25px
 }
 
 p {
@@ -14,6 +13,12 @@ p {
     margin: 0
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 .linkedinDisplayed {
     width: 60px;
     height: 60px;
@@ -22,14 +27,15 @@ p {
 }
 
 .githubDisplayed {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
 }
 
 .cvDisplayed {
     width: 60px;
     height: 60px;
-    background-color: #1a2bad;
+    background-color: #0072b1;
     color: white;
     border-width: 0;
     border-radius: 50%;
