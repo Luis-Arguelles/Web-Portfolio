@@ -1,0 +1,15 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid white;
+    width: 80%;
+}
+
+.contactText {
+    max-width: 100%;
+    font-family: 'Roboto';
+    font-size: 25px;
+    margin: 25px 0px;
+}

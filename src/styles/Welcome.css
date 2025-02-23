@@ -33,7 +33,7 @@
 }
 
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1284px) {
     .homeContainer {
         flex-direction: column;
         justify-content: space-evenly;

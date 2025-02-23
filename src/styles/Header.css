@@ -99,7 +99,7 @@ li:hover {
     display: none;
 }
 
-@media (max-width: 1280px) {
+@media screen and (max-width: 1284px) {
 
     .header {
         justify-content: space-evenly;
@@ -115,7 +115,7 @@ li:hover {
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .nav {
        display: none;
     }

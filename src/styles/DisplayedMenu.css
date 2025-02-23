@@ -29,12 +29,13 @@ a {
 .githubDisplayed {
     width: 70px;
     height: 70px;
+    border-radius: 70px;
 }
 
 .cvDisplayed {
     width: 60px;
     height: 60px;
-    background-color: #1a2bad;
+    background-color: #0072b1;
     color: white;
     border-width: 0;
     border-radius: 50%;
