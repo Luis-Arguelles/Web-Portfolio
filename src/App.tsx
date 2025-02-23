@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import Header from './components/Header'
-import TestComponent from './components/TestComponent'
 import DisplayedMenu from './components/DisplayedMenu'
 import Home from './components/Welcome'
 import Experience from './components/Experience'
