@@ -7,9 +7,15 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projectsContainer">
         <div className="projectContainer">
+            <Card title="MENTORA" description="Mobile study app focused on medicine students that implements RAG and AI." projectImage="/login-brain.png" projectTech={["/ReactNative.svg", "/TypeScript.png", "/supabase.jpg", "/expogo.png", "/Git.png"]}/>
+            <a href="https://github.com/Luis-Arguelles/Mentora" target="_blank"> 
+                <button className="gitHubButton">GitHub</button>
+            </a>
+        </div>
+        <div className="projectContainer">
             <Card title="Dad's Barber Shop" description="Booking, contact and info Website for a barber shop." projectImage="/dadsBarber.png" projectTech={["/react.png", "/JavaScript.png", "/tailwind.png", "/express.png", "/SQL.png", "/docker.png", "/Git.png"]}/>
             <a href="https://dadsbarber-shop.com/" target="_blank"> 
-                <button className="goToWebsiteButton">Go to Website</button>
+                <button className="goToWebsiteButton">Go to Website (maintenance)</button>
             </a>
         </div>
         <div className="projectContainer">

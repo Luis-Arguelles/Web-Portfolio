@@ -30,7 +30,7 @@ const Header: React.FC<HeaderProps> = ({setIsMenuOpened, isMenuOpened}) => {
                     <a href='https://github.com/Luis-Arguelles' target='_blank'>
                         <img className='github' src='/github.png'/>
                     </a>
-                    <a href='/cv.pdf' target='_blank'>
+                    <a href='/cv_Luis_Argüelles_González.pdf' target='_blank'>
                         <button className='cv'>CV</button>
                     </a>
                 </div>
