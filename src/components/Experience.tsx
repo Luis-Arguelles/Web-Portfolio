@@ -34,7 +34,7 @@ const Experience = () => {
             <div className="verticalLine"/>
                         <div className="jobContainer">
                     <img src="/toyoda.jpg" className="jobImage"/>
-                    <h2>Founding mobile developer engineer</h2>
+                    <h2>Web, IoT and maintenance intern</h2>
                     <h3> H. Matamoros, Tamaulipas | April - July 2025</h3>
                     <p>I automated manual data recording processes by developing a full-stack web application to replace paper-based workflows</p>
                     <div className="techIcons">
