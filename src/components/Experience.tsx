@@ -24,11 +24,26 @@ const Experience = () => {
                     <img src="/codec.png" className="jobImage"/>
                     <h2>Founding mobile developer engineer</h2>
                     <h3> H. Matamoros, Tamaulipas | November 2025 - Currently</h3>
-                    <p>I contributed to the development of Android applications, structured data sources.</p>
+                    <p>I contributed to the development of Android applications, and structured data sources.</p>
                     <div className="techIcons">
                         <img src="/android_studio.png" className="techIcon"/>
                         <img src="/kotlin.png" className="techIcon"/>
                         <img src="/Git.png" className="techIcon"/>
+                    </div>
+            </div>
+            <div className="verticalLine"/>
+                        <div className="jobContainer">
+                    <img src="/toyoda.jpg" className="jobImage"/>
+                    <h2>Founding mobile developer engineer</h2>
+                    <h3> H. Matamoros, Tamaulipas | April - July 2025</h3>
+                    <p>I automated manual data recording processes by developing a full-stack web application to replace paper-based workflows</p>
+                    <div className="techIcons">
+                        <img src="/react.png" className="techIcon"/>
+                        <img src="/JavaScript.png" className="techIcon"/>
+                        <img src="/express.png" className="techIcon"/>
+                        <img src="/docker.png" className="techIcon"/>
+                        <img src="/SQL.png" className="techIcon"/>
+                        <img src="/ubuntu.png" className="techIcon"/>
                     </div>
             </div>
             <div className="verticalLine"/>

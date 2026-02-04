@@ -7,7 +7,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projectsContainer">
         <div className="projectContainer">
-            <Card title="MENTORA" description="Mobile study app focused on medicine students that implements RAG and AI." projectImage="/login-brain.png" projectTech={["/ReactNative.svg", "/TypeScript.png", "/supabase.jpg", "/expogo.png", "/Git.png"]}/>
+            <Card title="MENTORA (in progress...)" description="Mobile study app focused on medicine students that implements RAG and AI." projectImage="/login-brain.png" projectTech={["/ReactNative.svg", "/TypeScript.png", "/supabase.jpg", "/expogo.png", "/Git.png"]}/>
             <a href="https://github.com/Luis-Arguelles/Mentora" target="_blank"> 
                 <button className="gitHubButton">GitHub</button>
             </a>
